@@ -67,6 +67,8 @@ RAG is an advanced architectural strategy that enhances the capabilities of larg
 Evaluate the effectiveness of a question-answering model by measuring its precision in predicting correct answers within the top 3 predictions for each question.
 - **Precision at k**: Measures the precision at the top k predictions.
 - **MAP@3**: A statistic used to evaluate the accuracy of a model in information retrieval tasks, focusing on the top 3 predictions made by the model.
+
+  
 ![image](https://github.com/user-attachments/assets/6fe5189c-fb9e-48b0-ae00-c2c8ae1daea4)
 
 ## Parameter-Efficient Fine-Tuning (PEFT)
@@ -206,12 +208,14 @@ The Phi-3-Mini-128K-Instruct is a 3.8 billion-parameter lightweight open model t
 
 **Performance**:
 - Demonstrates robust and state-of-the-art performance on benchmarks testing common sense, language understanding, mathematics, coding, long-term context, and logical reasoning among models with fewer than 13 billion parameters.
+  
+  **References**:
+- [Phi-3-Mini-128K-Instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)
 
 # Results :
 ![image](https://github.com/user-attachments/assets/afe90da5-a3f7-4933-bf95-59aeda331e21)
 
-**References**:
-- [Phi-3-Mini-128K-Instruct](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)
+
 
 ## References
 - [PEFT Documentation](https://huggingface.co/docs/peft)
